@@ -13,8 +13,8 @@ int main()
     a = b;
     b = c;
 
-    cout << a;
-    cout << b;
+    cout << "The Value of a:" << a << endl;
+    cout << "The Value of b:" << b;
 
     return 0;
 }
