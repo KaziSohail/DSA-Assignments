@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int array[7] = {1, 2, 3, 4, 5, 6, 7};
-    for (int i = 0; i <= 7; i++)
+    int array[7] = {5, 7, 10, 22, 25, 36, 77};
+    for (int i = 0; i <= 6; i++)
     {
-        if (array[i] == 2)
+        if (array[i] == 77)
         {
-            cout << "Present";
+            cout << "Present " << i;
             break;
         }
-        if (i == 7)
+        if (i == 6)
         {
             cout << "Not Present";
         }
