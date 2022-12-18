@@ -85,7 +85,7 @@ int main()
         }
         cout << "To continue press 1 :";
         cin >> z;
-    } while (z = 1);
+    } while (z == 1);
 
     return 0;
 }
