@@ -15,7 +15,7 @@ int main()
             cout << "Present at :" << i;
             break;
         }
-        if (i == 6)
+        if (i < n)
         {
             cout << "Not Present";
         }
